@@ -174,7 +174,7 @@ function backup_restore() {
             ((restored_keys++))
         done
         
-        log "Listing keys from source HSM $targetip"
+        log "Listing keys from target HSM $targetip"
         cxitool Dev=$targetip LogonPass=USR_0000,$pin Group=$targetslot ListKeys
         pin=""
     else
