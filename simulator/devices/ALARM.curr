@@ -1,0 +1,11 @@
+# SDK Alarm state:
+# Bit 7 -- External Erase
+# Bit 6 -- Power Low
+# Bit 5 -- Power High
+# Bit 4 -- Outer Foil
+# Bit 3 -- Inner Foil
+# Bit 2 -- Temp High
+# Bit 1 -- Power Fail
+# Bit 0 -- Temp Low
+
+ALARM=00000000
