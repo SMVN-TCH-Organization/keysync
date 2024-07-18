@@ -158,7 +158,7 @@ function backup_restore() {
         cxitool Dev=$sourceip LogonPass=USR_0000,$pin Group=$sourceslot ListKeys
 
         log "Backing up all keys to the current directory..."
-        cxitool Dev=$sourceip LogonPass=USR_0000,$pin Group=$sourceslot Name=* OutDir=~ backupkey
+        cxitool Dev=$sourceip LogonPass=USR_0000,$pin Group=$sourceslot Name=* OutDir=$PWD backupkey
 
         # Restore all keys
         log "Listing backup key files in the current directory"

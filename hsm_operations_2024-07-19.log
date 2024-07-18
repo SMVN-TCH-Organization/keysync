@@ -1,0 +1,49 @@
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm] Checking current config.properties...:
+[2024-07-19 00:29:32] [User: sm] Source HSM IP: 
+[2024-07-19 00:29:32] [User: sm] Source SLOT: 
+[2024-07-19 00:29:32] [User: sm] Target HSM IP: 
+[2024-07-19 00:29:32] [User: sm] Target SLOT: 
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm] Choose function:
+[2024-07-19 00:29:32] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:29:32] [User: sm] 2. Backup HSM
+[2024-07-19 00:29:32] [User: sm] 3. Restore HSM
+[2024-07-19 00:29:32] [User: sm] 4. Automatic backup all keys from HSM  to  
+[2024-07-19 00:29:32] [User: sm] 5. Exit.
+[2024-07-19 00:30:00] [User: sm] Listkeys from source HSM 
+[2024-07-19 00:41:32] [User: sm] Enter the name of the key you want to back up
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm] Checking current config.properties...:
+[2024-07-19 00:41:44] [User: sm] Source HSM IP: 
+[2024-07-19 00:41:44] [User: sm] Source SLOT: 
+[2024-07-19 00:41:44] [User: sm] Target HSM IP: 
+[2024-07-19 00:41:44] [User: sm] Target SLOT: 
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm] Choose function:
+[2024-07-19 00:41:44] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:41:44] [User: sm] 2. Backup HSM
+[2024-07-19 00:41:44] [User: sm] 3. Restore HSM
+[2024-07-19 00:41:44] [User: sm] 4. Automatic backup all keys from HSM  to  
+[2024-07-19 00:41:44] [User: sm] 5. Exit.
+[2024-07-19 00:41:48] [User: sm] Listkeys from source HSM 
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm] Checking current config.properties...:
+[2024-07-19 00:44:35] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 00:44:35] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 00:44:35] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 00:44:35] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm] Choose function:
+[2024-07-19 00:44:35] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:44:35] [User: sm] 2. Backup HSM
+[2024-07-19 00:44:35] [User: sm] 3. Restore HSM
+[2024-07-19 00:44:35] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 00:44:35] [User: sm] 5. Exit.
+[2024-07-19 00:44:42] [User: sm] Listkeys from source HSM 3001@127.0.0.1
