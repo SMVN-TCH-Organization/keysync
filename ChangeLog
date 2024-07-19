@@ -1,13 +1,17 @@
 Changes
 
+1.0.4 Tue Jul 16 2024 03:39 UTC
+
+    * Enhance cxitool_and_parse() function, separate into parts with separate functions
+
 1.0.3 Mon Jul 15 2024 11:03 UTC
 
-    * Enhance function run_cxitool_and_parse()
+    * Enhance cxitool_and_parse() function.
     * Print all key info
 
 1.0.2 Mon Jul 15 2024 10:31 UTC
 
-    * Add function run_cxitool_and_parse()
+    * Add function cxitool_and_parse()
     * Assign the value of Listkeys to the array, search for elements in the array and then print the KeyInfo of the found element
 
 1.0.1 Fri Jul 12 2024 11:04 UTC
