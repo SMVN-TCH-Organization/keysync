@@ -1,0 +1,22 @@
+Changes
+
+1.0.2 Mon Jul 15 2024
+
+    * Add function run_cxitool_and_parse()
+    - Assign the value of Listkeys to the array, search for elements in the array and then print the KeyInfo of the found element
+
+1.0.1 Fri Jul 12 2024
+    
+    * Fixed typos, enhanced log interface
+
+1.0.0 Fri Jul 12 2024
+
+    * Main function:
+    - Create a key (AES 256bit) to encrypt the password, then save it to a file to use for other functions.
+    - Backup the keys of the source HSM
+    - Restore backed up keys to target HSM
+    - Function to perform backup and restore on the same option
+
+    * Attached functions:
+    - Read the config.properties file to get information about the source HSM and target HSM
+    - Record activity content to logfile
