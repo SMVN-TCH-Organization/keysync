@@ -26,7 +26,7 @@ sourceip=""
 targetip=""
 
 # Set logfile name with date
-logfile="hsm_operations_$(date '+%Y-%m-%d').log"
+logfile="$PWD/logs/hsm_operations_$(date '+%Y-%m-%d').log"
 
 # Function to log messages with timestamp and username
 function log() {
