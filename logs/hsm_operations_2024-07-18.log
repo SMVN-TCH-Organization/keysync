@@ -1,0 +1,270 @@
+[2024-07-18 12:25:56] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:25:56] [User: root]                        AUTOMATIC KEYS SYNCHRONIZATION APPLICATION                       
+[2024-07-18 12:25:56] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:25:56] [User: root] Checking current config.properties...:
+[2024-07-18 12:25:56] [User: root] Source HSM IP: 
+[2024-07-18 12:25:56] [User: root] Source SLOT: 
+[2024-07-18 12:25:56] [User: root] Target HSM IP: 
+[2024-07-18 12:25:56] [User: root] Target SLOT: 
+[2024-07-18 12:25:56] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:25:56] [User: root] Choose function:
+[2024-07-18 12:25:56] [User: root] 1. Encrypt PIN
+[2024-07-18 12:25:56] [User: root] 2. Backup HSM
+[2024-07-18 12:25:56] [User: root] 3. Restore HSM
+[2024-07-18 12:25:56] [User: root] 4. Automatic backup all keys from HSM  to 
+[2024-07-18 12:25:56] [User: root] 5. Exit.
+[2024-07-18 12:25:56] [User: root] 6. Demo keys generation
+[2024-07-18 12:26:50] [User: root] Exit.
+[2024-07-18 12:31:54] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:31:54] [User: root]                        AUTOMATIC KEYS SYNCHRONIZATION APPLICATION                       
+[2024-07-18 12:31:54] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:31:54] [User: root] Checking current config.properties...:
+[2024-07-18 12:31:54] [User: root] Source HSM IP: 3001@192.168.100.146
+[2024-07-18 12:31:54] [User: root] Source SLOT: SLOT_0000
+[2024-07-18 12:31:54] [User: root] Target HSM IP: 3001@192.168.100.146
+[2024-07-18 12:31:54] [User: root] Target SLOT: SLOT_0000
+[2024-07-18 12:31:54] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:31:54] [User: root] Choose function:
+[2024-07-18 12:31:54] [User: root] 1. Encrypt PIN
+[2024-07-18 12:31:54] [User: root] 2. Backup HSM
+[2024-07-18 12:31:54] [User: root] 3. Restore HSM
+[2024-07-18 12:31:54] [User: root] 4. Automatic backup all keys from HSM 3001@192.168.100.146 to 3001@192.168.100.146
+[2024-07-18 12:31:54] [User: root] 5. Exit.
+[2024-07-18 12:31:54] [User: root] 6. Demo keys generation
+[2024-07-18 12:32:11] [User: root] Listkeys from source HSM 3001@192.168.100.146
+[2024-07-18 12:32:12] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:32:12] [User: root]                                BACKING-UP-KEYS PROCESSING                               
+[2024-07-18 12:32:27] [User: root] Enter the name of the key you want to back up
+[2024-07-18 12:33:22] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:33:22] [User: root] Choose function:
+[2024-07-18 12:33:22] [User: root] 1. Encrypt PIN
+[2024-07-18 12:33:22] [User: root] 2. Backup HSM
+[2024-07-18 12:33:22] [User: root] 3. Restore HSM
+[2024-07-18 12:33:22] [User: root] 4. Automatic backup all keys from HSM 3001@192.168.100.146 to 3001@192.168.100.146
+[2024-07-18 12:33:22] [User: root] 5. Exit.
+[2024-07-18 12:33:22] [User: root] 6. Demo keys generation
+[2024-07-18 12:33:49] [User: root] Listkeys from source HSM 3001@192.168.100.146
+[2024-07-18 12:33:49] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:33:49] [User: root]                                BACKING-UP-KEYS PROCESSING                               
+[2024-07-18 12:33:52] [User: root] Backing up all keys...
+[2024-07-18 12:33:53] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:33:53] [User: root] Choose function:
+[2024-07-18 12:33:53] [User: root] 1. Encrypt PIN
+[2024-07-18 12:33:53] [User: root] 2. Backup HSM
+[2024-07-18 12:33:53] [User: root] 3. Restore HSM
+[2024-07-18 12:33:53] [User: root] 4. Automatic backup all keys from HSM 3001@192.168.100.146 to 3001@192.168.100.146
+[2024-07-18 12:33:53] [User: root] 5. Exit.
+[2024-07-18 12:33:53] [User: root] 6. Demo keys generation
+[2024-07-18 12:34:11] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:11] [User: root]                                 RESTORE-KEYS PROCESSING                                 
+[2024-07-18 12:34:11] [User: root] Listing... keys present in the current directory
+[2024-07-18 12:34:11] [User: root] ----------------------------------------------------------------------------------------
+-rw-r--r--. 1 root root  292 Jul 18 12:33 SLOT_0000_AES_DEMO_Key.kbk
+-rw-r--r--. 1 root root 1.1K Jul 18 12:33 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-r--r--. 1 root root  308 Jul 18 12:33 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-r--r--. 1 root root  313 Jul 18 12:33 SLOT_0000_ECDH_KEY1.kbk
+-rw-r--r--. 1 root root  255 Jul 18 12:33 SLOT_0000_ECDH_KEY2.kbk
+-rw-r--r--. 1 root root 2.4K Jul 18 12:33 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-18 12:34:11] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:11] [User: root] Found 6 keys present in the current directory
+[2024-07-18 12:34:11] [User: root] Listing keys from target HSM 3001@192.168.100.146
+
+idx algo    size type     group                    name                             spec
+----------------------------------------------------------------------------------------
+1   AES     256  sec      SLOT_0000                AES_DEMO_Key                     
+2   DSA     2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     
+3   ECDSA   256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     
+4   ECDH    256  pub+prv  SLOT_0000                ECDH_KEY1                        
+5   ECDH    256  pub      SLOT_0000                ECDH_KEY2                        
+6   RSA     2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     
+
+WARNING: Found 6 matching keys between source and target HSMs.
+BE SURE YOU HAVE BACKED UP ALL KEYS AT TARGET HSM BEFORE PROCEEDING KEYS-RESTORATION
+[2024-07-18 12:34:27] [User: root] Enter the name of the backup's key you want to restore into HSM with IP: 3001@192.168.100.146
+[2024-07-18 12:34:27] [User: root] The file name must contain the .kbk part (example: CXIKey.kbk)
+[2024-07-18 12:34:27] [User: root] Or type 'all' to restore all keys
+[2024-07-18 12:34:31] [User: root] 1 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:32] [User: root] 2 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:32] [User: root] 3 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:32] [User: root] 4 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:32] [User: root] 5 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:33] [User: root] 6 key(s) out of 6 have been restored to HSM 3001@192.168.100.146
+[2024-07-18 12:34:33] [User: root] Listing keys from source HSM 3001@192.168.100.146
+
+idx algo    size type     group                    name                             spec
+----------------------------------------------------------------------------------------
+1   AES     256  sec      SLOT_0000                AES_DEMO_Key                     
+2   DSA     2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     
+3   ECDSA   256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     
+4   ECDH    256  pub+prv  SLOT_0000                ECDH_KEY1                        
+5   ECDH    256  pub      SLOT_0000                ECDH_KEY2                        
+6   RSA     2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     
+
+[2024-07-18 12:34:33] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:33] [User: root] Choose function:
+[2024-07-18 12:34:33] [User: root] 1. Encrypt PIN
+[2024-07-18 12:34:33] [User: root] 2. Backup HSM
+[2024-07-18 12:34:33] [User: root] 3. Restore HSM
+[2024-07-18 12:34:33] [User: root] 4. Automatic backup all keys from HSM 3001@192.168.100.146 to 3001@192.168.100.146
+[2024-07-18 12:34:33] [User: root] 5. Exit.
+[2024-07-18 12:34:33] [User: root] 6. Demo keys generation
+[2024-07-18 12:34:50] [User: root] Listing keys from source HSM 3001@192.168.100.146
+
+idx algo    size type     group                    name                             spec
+----------------------------------------------------------------------------------------
+1   AES     256  sec      SLOT_0000                AES_DEMO_Key                     
+2   DSA     2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     
+3   ECDSA   256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     
+4   ECDH    256  pub+prv  SLOT_0000                ECDH_KEY1                        
+5   ECDH    256  pub      SLOT_0000                ECDH_KEY2                        
+6   RSA     2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     
+
+[2024-07-18 12:34:51] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:51] [User: root]                                BACKING-UP-KEYS PROCESSING                               
+to current directory folder[2024-07-18 12:34:51] [User: root] \nListing backup key files in the current directory
+[2024-07-18 12:34:51] [User: root] ----------------------------------------------------------------------------------------
+-rw-r--r--. 1 root root  292 Jul 18 12:34 SLOT_0000_AES_DEMO_Key.kbk
+-rw-r--r--. 1 root root 1.1K Jul 18 12:34 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-r--r--. 1 root root  308 Jul 18 12:34 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-r--r--. 1 root root  313 Jul 18 12:34 SLOT_0000_ECDH_KEY1.kbk
+-rw-r--r--. 1 root root  255 Jul 18 12:34 SLOT_0000_ECDH_KEY2.kbk
+-rw-r--r--. 1 root root 2.4K Jul 18 12:34 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-18 12:34:51] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:51] [User: root] ----------------------------------------------------------------------------------------
+[2024-07-18 12:34:51] [User: root]                                 RESTORE-KEYS PROCESSING                                 
+[2024-07-18 12:34:51] [User: root] Listing keys from target HSM 3001@192.168.100.146
+
+idx algo    size type     group                    name                             spec
+----------------------------------------------------------------------------------------
+1   AES     256  sec      SLOT_0000                AES_DEMO_Key                     
+2   DSA     2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     
+3   ECDSA   256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     
+4   ECDH    256  pub+prv  SLOT_0000                ECDH_KEY1                        
+5   ECDH    256  pub      SLOT_0000                ECDH_KEY2                        
+6   RSA     2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     
+
+WARNING: Found 6 matching keys between source and target HSMs.
+BE SURE YOU HAVE BACKED UP ALL KEYS AT TARGET HSM BEFORE PROCEEDING KEYS-RESTORATION
+[2024-07-18 17:40:55] [User: sm] No information about source and target HSM was found
+[2024-07-18 17:40:55] [User: sm] Enter the IP address of the source HSM
+[2024-07-18 17:41:10] [User: sm] Enter the source SLOT number
+[2024-07-18 17:41:16] [User: sm] Enter the IP address of the target HSM
+[2024-07-18 17:41:26] [User: sm] Enter the target SLOT number
+[2024-07-18 17:41:47] [User: sm] Values saved to config.properties:
+[2024-07-18 17:41:47] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-18 17:41:47] [User: sm] Source SLOT: SLOT_0000
+[2024-07-18 17:41:47] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-18 17:41:47] [User: sm] Target SLOT: SLOT_0000
+[2024-07-18 17:41:47] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 17:41:47] [User: sm] Choose function:
+[2024-07-18 17:41:47] [User: sm] 1. Encrypt PIN
+[2024-07-18 17:41:47] [User: sm] 2. Backup HSM
+[2024-07-18 17:41:47] [User: sm] 3. Restore HSM
+[2024-07-18 17:41:47] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 17:41:47] [User: sm] 5. Exit.
+[2024-07-18 17:41:57] [User: sm] This function will generate a 256bit AES key and encrypt the HSM access PIN, everything is made permanent so you don't need to do this again.
+[2024-07-18 17:41:57] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 17:41:57] [User: sm] Enter the PIN code, this PIN code will be encrypted and then used for backing up and restoring the keys to HSM:
+[2024-07-18 17:42:01] [User: sm] 12345678
+[2024-07-18 17:42:01] [User: sm] the PIN has been encrypted and save to file:
+[2024-07-18 17:42:01] [User: sm] encrypted_data.txt
+[2024-07-18 17:42:01] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 17:42:01] [User: sm] Choose function:
+[2024-07-18 17:42:01] [User: sm] 1. Encrypt PIN
+[2024-07-18 17:42:01] [User: sm] 2. Backup HSM
+[2024-07-18 17:42:01] [User: sm] 3. Restore HSM
+[2024-07-18 17:42:01] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 17:42:01] [User: sm] 5. Exit.
+[2024-07-18 17:42:07] [User: sm] Listkeys from source HSM 3001@127.0.0.1
+[2024-07-18 18:01:02] [User: sm] Values loaded from config.properties:
+[2024-07-18 18:01:02] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-18 18:01:02] [User: sm] Source SLOT: SLOT_0000
+[2024-07-18 18:01:02] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-18 18:01:02] [User: sm] Target SLOT: SLOT_0000
+[2024-07-18 18:01:02] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:01:02] [User: sm] Choose function:
+[2024-07-18 18:01:02] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:01:02] [User: sm] 2. Backup HSM
+[2024-07-18 18:01:02] [User: sm] 3. Restore HSM
+[2024-07-18 18:01:02] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:01:02] [User: sm] 5. Exit.
+[2024-07-18 18:04:21] [User: sm] This function will generate a 256bit AES key and encrypt the HSM access PIN, everything is made permanent so you don't need to do this again.
+[2024-07-18 18:04:21] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:04:21] [User: sm] Enter the PIN code, this PIN code will be encrypted and then used for backing up and restoring the keys to HSM:
+[2024-07-18 18:04:26] [User: sm] the PIN has been encrypted and save to file:
+[2024-07-18 18:04:26] [User: sm] encrypted_data.txt
+[2024-07-18 18:04:26] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:04:26] [User: sm] Choose function:
+[2024-07-18 18:04:26] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:04:26] [User: sm] 2. Backup HSM
+[2024-07-18 18:04:26] [User: sm] 3. Restore HSM
+[2024-07-18 18:04:26] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:04:26] [User: sm] 5. Exit.
+[2024-07-18 18:04:51] [User: sm] Listkeys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-18 18:05:09] [User: sm] Backing up all keys...
+[2024-07-18 18:05:09] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:05:09] [User: sm] Choose function:
+[2024-07-18 18:05:09] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:05:09] [User: sm] 2. Backup HSM
+[2024-07-18 18:05:09] [User: sm] 3. Restore HSM
+[2024-07-18 18:05:09] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:05:09] [User: sm] 5. Exit.
+[2024-07-18 18:05:43] [User: sm] Exit.
+[2024-07-18 18:07:41] [User: sm] Values loaded from config.properties:
+[2024-07-18 18:07:41] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-18 18:07:41] [User: sm] Source SLOT: SLOT_0000
+[2024-07-18 18:07:41] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-18 18:07:41] [User: sm] Target SLOT: SLOT_0000
+[2024-07-18 18:07:41] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:07:41] [User: sm] Choose function:
+[2024-07-18 18:07:41] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:07:41] [User: sm] 2. Backup HSM
+[2024-07-18 18:07:41] [User: sm] 3. Restore HSM
+[2024-07-18 18:07:41] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:07:41] [User: sm] 5. Exit.
+[2024-07-18 18:07:46] [User: sm] Listkeys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-18 18:07:48] [User: sm] Backing up all keys...
+[2024-07-18 18:07:48] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:07:48] [User: sm] Choose function:
+[2024-07-18 18:07:48] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:07:48] [User: sm] 2. Backup HSM
+[2024-07-18 18:07:48] [User: sm] 3. Restore HSM
+[2024-07-18 18:07:48] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:07:48] [User: sm] 5. Exit.
+[2024-07-18 18:08:19] [User: sm] Listing... keys present in the current directory
+[2024-07-18 18:08:19] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:08:19] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:08:19] [User: sm] Found 6 keys present in the current directory
+[2024-07-18 18:08:19] [User: sm] Enter the name of the backup's key you want to restore into HSM with IP: 3001@127.0.0.1
+[2024-07-18 18:08:19] [User: sm] The file name must contain the .kbk part (example: CXIKey.kbk)
+[2024-07-18 18:08:19] [User: sm] Or type 'all' to restore all keys
+[2024-07-18 18:08:43] [User: sm] 1 key has been restored to HSM 3001@127.0.0.1
+[2024-07-18 18:08:43] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+[2024-07-18 18:08:43] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-18 18:08:43] [User: sm] Choose function:
+[2024-07-18 18:08:43] [User: sm] 1. Encrypt PIN
+[2024-07-18 18:08:43] [User: sm] 2. Backup HSM
+[2024-07-18 18:08:43] [User: sm] 3. Restore HSM
+[2024-07-18 18:08:43] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-18 18:08:43] [User: sm] 5. Exit.
+[2024-07-18 18:09:33] [User: sm] Exit.

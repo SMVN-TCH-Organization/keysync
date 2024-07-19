@@ -1,0 +1,1208 @@
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm] Checking current config.properties...:
+[2024-07-19 00:29:32] [User: sm] Source HSM IP: 
+[2024-07-19 00:29:32] [User: sm] Source SLOT: 
+[2024-07-19 00:29:32] [User: sm] Target HSM IP: 
+[2024-07-19 00:29:32] [User: sm] Target SLOT: 
+[2024-07-19 00:29:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:29:32] [User: sm] Choose function:
+[2024-07-19 00:29:32] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:29:32] [User: sm] 2. Backup HSM
+[2024-07-19 00:29:32] [User: sm] 3. Restore HSM
+[2024-07-19 00:29:32] [User: sm] 4. Automatic backup all keys from HSM  to  
+[2024-07-19 00:29:32] [User: sm] 5. Exit.
+[2024-07-19 00:30:00] [User: sm] Listkeys from source HSM 
+[2024-07-19 00:41:32] [User: sm] Enter the name of the key you want to back up
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm] Checking current config.properties...:
+[2024-07-19 00:41:44] [User: sm] Source HSM IP: 
+[2024-07-19 00:41:44] [User: sm] Source SLOT: 
+[2024-07-19 00:41:44] [User: sm] Target HSM IP: 
+[2024-07-19 00:41:44] [User: sm] Target SLOT: 
+[2024-07-19 00:41:44] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:41:44] [User: sm] Choose function:
+[2024-07-19 00:41:44] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:41:44] [User: sm] 2. Backup HSM
+[2024-07-19 00:41:44] [User: sm] 3. Restore HSM
+[2024-07-19 00:41:44] [User: sm] 4. Automatic backup all keys from HSM  to  
+[2024-07-19 00:41:44] [User: sm] 5. Exit.
+[2024-07-19 00:41:48] [User: sm] Listkeys from source HSM 
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm] Checking current config.properties...:
+[2024-07-19 00:44:35] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 00:44:35] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 00:44:35] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 00:44:35] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 00:44:35] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:44:35] [User: sm] Choose function:
+[2024-07-19 00:44:35] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:44:35] [User: sm] 2. Backup HSM
+[2024-07-19 00:44:35] [User: sm] 3. Restore HSM
+[2024-07-19 00:44:35] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 00:44:35] [User: sm] 5. Exit.
+[2024-07-19 00:44:42] [User: sm] Listkeys from source HSM 3001@127.0.0.1
+[2024-07-19 00:47:01] [User: sm] Backing up all keys...
+[2024-07-19 00:47:01] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:47:01] [User: sm] Choose function:
+[2024-07-19 00:47:01] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:47:01] [User: sm] 2. Backup HSM
+[2024-07-19 00:47:01] [User: sm] 3. Restore HSM
+[2024-07-19 00:47:01] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 00:47:01] [User: sm] 5. Exit.
+[2024-07-19 00:47:07] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 00:47:07] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 00:47:07] [User: sm] Listing backup key files in the current directory
+[2024-07-19 00:47:07] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 00:47 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 00:47 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 00:47 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 00:47 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 00:47 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 00:47 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 00:47:07] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:47:07] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 00:47:07] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 00:47:07] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 00:47:07] [User: sm] Choose function:
+[2024-07-19 00:47:07] [User: sm] 1. Encrypt PIN
+[2024-07-19 00:47:07] [User: sm] 2. Backup HSM
+[2024-07-19 00:47:07] [User: sm] 3. Restore HSM
+[2024-07-19 00:47:07] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 00:47:07] [User: sm] 5. Exit.
+[2024-07-19 00:47:24] [User: sm] Exit.
+[2024-07-19 01:02:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:02:27] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:02:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:02:27] [User: sm] Checking current config.properties...:
+[2024-07-19 01:02:27] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:02:27] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:02:27] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:02:27] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:02:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:02:27] [User: sm] Choose function:
+[2024-07-19 01:02:27] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:02:27] [User: sm] 2. Backup HSM
+[2024-07-19 01:02:27] [User: sm] 3. Restore HSM
+[2024-07-19 01:02:27] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:02:27] [User: sm] 5. Exit.
+[2024-07-19 01:02:51] [User: sm] Exit.
+[2024-07-19 01:03:17] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:03:17] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:03:17] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:03:17] [User: sm] Checking current config.properties...:
+[2024-07-19 01:03:17] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:03:17] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:03:17] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:03:17] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:03:17] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:03:17] [User: sm] Choose function:
+[2024-07-19 01:03:17] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:03:17] [User: sm] 2. Backup HSM
+[2024-07-19 01:03:17] [User: sm] 3. Restore HSM
+[2024-07-19 01:03:17] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:03:17] [User: sm] 5. Exit.
+[2024-07-19 01:03:23] [User: sm] Listkeys from source HSM 3001@127.0.0.1
+[2024-07-19 01:03:26] [User: sm] Backing up all keys...
+[2024-07-19 01:03:26] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:03:26] [User: sm] Choose function:
+[2024-07-19 01:03:26] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:03:26] [User: sm] 2. Backup HSM
+[2024-07-19 01:03:26] [User: sm] 3. Restore HSM
+[2024-07-19 01:03:26] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:03:26] [User: sm] 5. Exit.
+[2024-07-19 01:10:51] [User: sm] Exit.
+[2024-07-19 01:14:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:14:27] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:14:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:14:27] [User: sm] Checking current config.properties...:
+[2024-07-19 01:14:27] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:14:27] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:14:27] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:14:27] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:14:27] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:14:27] [User: sm] Choose function:
+[2024-07-19 01:14:27] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:14:27] [User: sm] 2. Backup HSM
+[2024-07-19 01:14:27] [User: sm] 3. Restore HSM
+[2024-07-19 01:14:27] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:14:27] [User: sm] 5. Exit.
+[2024-07-19 01:14:31] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:14:31] [User: sm] Backing up all keys to the current directory...
+/home/sm/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:14:31] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:14:31] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:03 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:03 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:03 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:03 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:03 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:03 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:14:31] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:14:31] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:14:31] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:31] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:31] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:31] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:31] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:32] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:14:32] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:14:32] [User: sm] Parsed cxitool output:
+[2024-07-19 01:14:32] [User: sm] Parsed cxitool output:
+[2024-07-19 01:14:32] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:14:32] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:14:32] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:14:32] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:14:32] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:14:32] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:14:32] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:14:32] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:14:32] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:14:32] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:14:32] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:14:32] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: S_DEMO_Key                     -1, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: C_DEMO_KEY                     -1, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: DH_KEY1                        -1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: DH_KEY2                        -1, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:14:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:14:32] [User: sm] Choose function:
+[2024-07-19 01:14:32] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:14:32] [User: sm] 2. Backup HSM
+[2024-07-19 01:14:32] [User: sm] 3. Restore HSM
+[2024-07-19 01:14:32] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:14:32] [User: sm] 5. Exit.
+[2024-07-19 01:17:43] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:17:43] [User: sm] Backing up all keys to the current directory...
+/home/sm/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:17:43] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:17:43] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:03 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:03 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:03 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:03 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:03 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:03 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:17:43] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:43] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:17:43] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:43] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:43] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:44] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:44] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:44] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:44] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:17:44] [User: sm] Parsed cxitool output:
+[2024-07-19 01:17:44] [User: sm] Parsed cxitool output:
+[2024-07-19 01:17:44] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:17:44] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:17:44] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:17:44] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:17:44] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:17:44] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:17:44] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:17:44] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:17:44] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:17:44] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:17:44] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:17:44] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: S_DEMO_Key                     -1, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: C_DEMO_KEY                     -1, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: DH_KEY1                        -1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: DH_KEY2                        -1, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:17:45] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:45] [User: sm] Choose function:
+[2024-07-19 01:17:45] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:17:45] [User: sm] 2. Backup HSM
+[2024-07-19 01:17:45] [User: sm] 3. Restore HSM
+[2024-07-19 01:17:45] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:17:45] [User: sm] 5. Exit.
+[2024-07-19 01:17:49] [User: sm] Exit.
+[2024-07-19 01:17:51] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:51] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:17:51] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:51] [User: sm] Checking current config.properties...:
+[2024-07-19 01:17:51] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:17:51] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:17:51] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:17:51] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:17:51] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:51] [User: sm] Choose function:
+[2024-07-19 01:17:51] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:17:51] [User: sm] 2. Backup HSM
+[2024-07-19 01:17:51] [User: sm] 3. Restore HSM
+[2024-07-19 01:17:51] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:17:51] [User: sm] 5. Exit.
+[2024-07-19 01:17:54] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:17:54] [User: sm] Backing up all keys to the current directory...
+/home/sm/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:17:54] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:17:54] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:03 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:03 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:03 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:03 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:03 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:03 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:17:54] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:54] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:17:54] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:54] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:55] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:55] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:55] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:55] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:17:55] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:17:55] [User: sm] Parsed cxitool output:
+[2024-07-19 01:17:55] [User: sm] Parsed cxitool output:
+[2024-07-19 01:17:55] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:17:55] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:17:55] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:17:55] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:17:55] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:17:55] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:17:55] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:17:55] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:17:55] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:17:55] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:17:55] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:17:55] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: S_DEMO_Key                     -1, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: C_DEMO_KEY                     -1, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: DH_KEY1                        -1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: DH_KEY2                        -1, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:17:55] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:17:55] [User: sm] Choose function:
+[2024-07-19 01:17:55] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:17:55] [User: sm] 2. Backup HSM
+[2024-07-19 01:17:55] [User: sm] 3. Restore HSM
+[2024-07-19 01:17:55] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:17:55] [User: sm] 5. Exit.
+[2024-07-19 01:22:18] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:22:18] [User: sm] Backing up all keys to the current directory...
+/home/sm/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:22:18] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:22:18] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:03 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:03 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:03 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:03 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:03 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:03 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:22:18] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:18] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:22:18] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:18] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:18] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:18] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:19] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:19] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:19] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:22:19] [User: sm] Parsed cxitool output:
+[2024-07-19 01:22:19] [User: sm] Parsed cxitool output:
+[2024-07-19 01:22:19] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:22:19] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:22:19] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:22:19] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:22:19] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:22:19] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:22:19] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:22:19] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:22:19] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:22:19] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:22:19] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:22:19] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: S_DEMO_Key                     -1, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: C_DEMO_KEY                     -1, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: DH_KEY1                        -1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: DH_KEY2                        -1, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: A_DEMO_KEY                     -1, Spec: -1
+
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:22:19] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:19] [User: sm] Choose function:
+[2024-07-19 01:22:19] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:22:19] [User: sm] 2. Backup HSM
+[2024-07-19 01:22:19] [User: sm] 3. Restore HSM
+[2024-07-19 01:22:19] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:22:19] [User: sm] 5. Exit.
+[2024-07-19 01:22:24] [User: sm] Exit.
+[2024-07-19 01:22:37] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:37] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:22:37] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:37] [User: sm] Checking current config.properties...:
+[2024-07-19 01:22:37] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:22:37] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:22:37] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:22:37] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:22:37] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:37] [User: sm] Choose function:
+[2024-07-19 01:22:37] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:22:37] [User: sm] 2. Backup HSM
+[2024-07-19 01:22:37] [User: sm] 3. Restore HSM
+[2024-07-19 01:22:37] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:22:37] [User: sm] 5. Exit.
+[2024-07-19 01:22:41] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:22:41] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:22:41] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:22:41] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:22 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:22 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:22 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:22 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:22 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:22 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:22:41] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:41] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:22:41] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:41] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:41] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:41] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:42] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:42] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:22:42] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:22:42] [User: sm] Parsed cxitool output:
+[2024-07-19 01:22:42] [User: sm] Parsed cxitool output:
+[2024-07-19 01:22:42] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:22:42] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:22:42] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:22:42] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:22:42] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:22:42] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:22:42] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:22:42] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:22:42] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:22:42] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:22:42] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:22:42] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:22:42] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:22:42] [User: sm] Choose function:
+[2024-07-19 01:22:42] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:22:42] [User: sm] 2. Backup HSM
+[2024-07-19 01:22:42] [User: sm] 3. Restore HSM
+[2024-07-19 01:22:42] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:22:42] [User: sm] 5. Exit.
+[2024-07-19 01:25:03] [User: sm] Exit.
+[2024-07-19 01:25:06] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:25:06] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:25:06] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:25:06] [User: sm] Checking current config.properties...:
+[2024-07-19 01:25:06] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:25:06] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:25:06] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:25:06] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:25:06] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:25:06] [User: sm] Choose function:
+[2024-07-19 01:25:06] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:25:06] [User: sm] 2. Backup HSM
+[2024-07-19 01:25:06] [User: sm] 3. Restore HSM
+[2024-07-19 01:25:06] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:25:06] [User: sm] 5. Exit.
+[2024-07-19 01:25:09] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:25:09] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:25:09] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:25:09] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:25 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:25 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:25 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:25 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:25 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:25 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:25:09] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:25:09] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:25:09] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:09] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:09] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:09] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:09] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:10] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:25:10] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:25:10] [User: sm] Parsed cxitool output:
+[2024-07-19 01:25:10] [User: sm] Parsed cxitool output:
+[2024-07-19 01:25:10] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:25:10] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:25:10] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:25:10] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:25:10] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:25:10] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:25:10] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:25:10] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:25:10] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:25:10] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:25:10] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:25:10] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+Key name= 
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:25:10] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:25:10] [User: sm] Choose function:
+[2024-07-19 01:25:10] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:25:10] [User: sm] 2. Backup HSM
+[2024-07-19 01:25:10] [User: sm] 3. Restore HSM
+[2024-07-19 01:25:10] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:25:10] [User: sm] 5. Exit.
+[2024-07-19 01:26:27] [User: sm] Exit.
+[2024-07-19 01:26:28] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:28] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:26:28] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:28] [User: sm] Checking current config.properties...:
+[2024-07-19 01:26:28] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:26:28] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:26:28] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:26:28] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:26:28] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:28] [User: sm] Choose function:
+[2024-07-19 01:26:28] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:26:28] [User: sm] 2. Backup HSM
+[2024-07-19 01:26:28] [User: sm] 3. Restore HSM
+[2024-07-19 01:26:28] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:26:28] [User: sm] 5. Exit.
+[2024-07-19 01:26:30] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:26:30] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:26:30] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:26:30] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:26 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:26 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:26 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:26 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:26 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:26 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:26:31] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:31] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:26:31] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:26:31] [User: sm] Parsed cxitool output:
+[2024-07-19 01:26:31] [User: sm] Parsed cxitool output:
+[2024-07-19 01:26:31] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:26:31] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:26:31] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:26:31] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:26:31] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:26:31] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:26:31] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:26:31] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:26:31] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:26:31] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:26:31] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:26:31] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+name=
+Key name= RSA_DEMO_KEY
+Error B0880004
+      CryptoServer Database Module
+      record not found
+at exec
+[2024-07-19 01:26:32] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:32] [User: sm] Choose function:
+[2024-07-19 01:26:32] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:26:32] [User: sm] 2. Backup HSM
+[2024-07-19 01:26:32] [User: sm] 3. Restore HSM
+[2024-07-19 01:26:32] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:26:32] [User: sm] 5. Exit.
+[2024-07-19 01:26:57] [User: sm] Exit.
+[2024-07-19 01:26:58] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:58] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:26:58] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:58] [User: sm] Checking current config.properties...:
+[2024-07-19 01:26:58] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:26:58] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:26:58] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:26:58] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:26:58] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:26:58] [User: sm] Choose function:
+[2024-07-19 01:26:58] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:26:58] [User: sm] 2. Backup HSM
+[2024-07-19 01:26:58] [User: sm] 3. Restore HSM
+[2024-07-19 01:26:58] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:26:58] [User: sm] 5. Exit.
+[2024-07-19 01:27:00] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:27:00] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:27:00] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:27:00] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:27 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:27 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:27 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:27 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:27 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:27 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:27:00] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:27:00] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:27:00] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:00] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:00] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:00] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:00] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:01] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:27:01] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:27:01] [User: sm] Parsed cxitool output:
+[2024-07-19 01:27:01] [User: sm] Parsed cxitool output:
+[2024-07-19 01:27:01] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:27:01] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:27:01] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:27:01] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:27:01] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:27:01] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:27:01] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:27:01] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:27:01] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:27:01] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:27:01] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:27:01] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+name=
+Key name= RSA_DEMO_KEY
+cxitool Dev=3001@127.0.0.1 LogonPass=USR_0000,12345678 Group= Name=RSA_DEMO_KEY keyinfo
+[2024-07-19 01:27:01] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:27:01] [User: sm] Choose function:
+[2024-07-19 01:27:01] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:27:01] [User: sm] 2. Backup HSM
+[2024-07-19 01:27:01] [User: sm] 3. Restore HSM
+[2024-07-19 01:27:01] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:27:01] [User: sm] 5. Exit.
+[2024-07-19 01:29:20] [User: sm] Exit.
+[2024-07-19 01:29:21] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:29:21] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:29:21] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:29:21] [User: sm] Checking current config.properties...:
+[2024-07-19 01:29:21] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:29:21] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:29:21] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:29:21] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:29:21] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:29:21] [User: sm] Choose function:
+[2024-07-19 01:29:21] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:29:21] [User: sm] 2. Backup HSM
+[2024-07-19 01:29:21] [User: sm] 3. Restore HSM
+[2024-07-19 01:29:21] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:29:21] [User: sm] 5. Exit.
+[2024-07-19 01:29:23] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:29:23] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:29:23] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:29:23] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:29 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:29 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:29 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:29 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:29 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:29 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:29:23] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:29:23] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:29:23] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:23] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:24] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:24] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:24] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:24] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:29:24] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:29:24] [User: sm] Parsed cxitool output:
+[2024-07-19 01:29:24] [User: sm] Parsed cxitool output:
+[2024-07-19 01:29:24] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:29:24] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:29:24] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:29:24] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:29:24] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:29:24] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:29:24] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:29:24] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:29:24] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:29:24] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:29:24] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:29:24] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+name=
+Key name= RSA_DEMO_KEY
+cxitool Dev=3001@127.0.0.1 LogonPass=USR_0000,12345678 Group= Name=RSA_DEMO_KEY keyinfo
+[2024-07-19 01:29:24] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:29:24] [User: sm] Choose function:
+[2024-07-19 01:29:24] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:29:24] [User: sm] 2. Backup HSM
+[2024-07-19 01:29:24] [User: sm] 3. Restore HSM
+[2024-07-19 01:29:24] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:29:24] [User: sm] 5. Exit.
+[2024-07-19 01:34:38] [User: sm] Exit.
+[2024-07-19 01:34:39] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:34:39] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:34:39] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:34:39] [User: sm] Checking current config.properties...:
+[2024-07-19 01:34:39] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:34:39] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:34:39] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:34:39] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:34:39] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:34:39] [User: sm] Choose function:
+[2024-07-19 01:34:39] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:34:39] [User: sm] 2. Backup HSM
+[2024-07-19 01:34:39] [User: sm] 3. Restore HSM
+[2024-07-19 01:34:39] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:34:39] [User: sm] 5. Exit.
+[2024-07-19 01:34:41] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:34:41] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:34:41] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:34:41] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:34 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:34 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:34 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:34 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:34 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:34 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:34:41] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:34:41] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:34:42] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:34:42] [User: sm] Parsed cxitool output:
+[2024-07-19 01:34:42] [User: sm] Parsed cxitool output:
+[2024-07-19 01:34:42] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:34:42] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:34:42] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:34:42] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:34:42] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:34:42] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:34:42] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:34:42] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:34:42] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:34:42] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:34:42] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:34:42] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+name=
+Key name= RSA_DEMO_KEY
+cxitool Dev=3001@127.0.0.1 LogonPass=USR_0000,12345678 Group=SLOT_0000 Name=RSA_DEMO_KEY keyinfo
+[2024-07-19 01:34:43] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:34:43] [User: sm] Choose function:
+[2024-07-19 01:34:43] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:34:43] [User: sm] 2. Backup HSM
+[2024-07-19 01:34:43] [User: sm] 3. Restore HSM
+[2024-07-19 01:34:43] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:34:43] [User: sm] 5. Exit.
+[2024-07-19 01:35:46] [User: sm] Exit.
+[2024-07-19 01:35:47] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:35:47] [User: sm]                           AUTOMATIC KEY SYNCING APPLICATION                             
+[2024-07-19 01:35:47] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:35:47] [User: sm] Checking current config.properties...:
+[2024-07-19 01:35:47] [User: sm] Source HSM IP: 3001@127.0.0.1
+[2024-07-19 01:35:47] [User: sm] Source SLOT: SLOT_0000
+[2024-07-19 01:35:47] [User: sm] Target HSM IP: 3001@127.0.0.1
+[2024-07-19 01:35:47] [User: sm] Target SLOT: SLOT_0000
+[2024-07-19 01:35:47] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:35:47] [User: sm] Choose function:
+[2024-07-19 01:35:47] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:35:47] [User: sm] 2. Backup HSM
+[2024-07-19 01:35:47] [User: sm] 3. Restore HSM
+[2024-07-19 01:35:47] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:35:47] [User: sm] 5. Exit.
+[2024-07-19 01:35:49] [User: sm] Listing keys from source HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:35:49] [User: sm] Backing up all keys to the current directory...
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY2.kbk
+/home/sm/146/keysync/SLOT_0000_ECDH_KEY1.kbk
+/home/sm/146/keysync/SLOT_0000_RSA_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_ECC_DEMO_KEY.kbk
+/home/sm/146/keysync/SLOT_0000_AES_DEMO_Key.kbk
+/home/sm/146/keysync/SLOT_0000_DSA_DEMO_KEY.kbk
+
+6 key(s) backed up
+[2024-07-19 01:35:49] [User: sm] Listing backup key files in the current directory
+[2024-07-19 01:35:49] [User: sm] ----------------------------------------------------------------------------------------
+-rw-rw-r-- 1 sm sm  292 Jul 19 01:35 SLOT_0000_AES_DEMO_Key.kbk
+-rw-rw-r-- 1 sm sm 1.1K Jul 19 01:35 SLOT_0000_DSA_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  308 Jul 19 01:35 SLOT_0000_ECC_DEMO_KEY.kbk
+-rw-rw-r-- 1 sm sm  313 Jul 19 01:35 SLOT_0000_ECDH_KEY1.kbk
+-rw-rw-r-- 1 sm sm  255 Jul 19 01:35 SLOT_0000_ECDH_KEY2.kbk
+-rw-rw-r-- 1 sm sm 2.4K Jul 19 01:35 SLOT_0000_RSA_DEMO_KEY.kbk
+[2024-07-19 01:35:49] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:35:49] [User: sm] Restoring all keys to target HSM 3001@127.0.0.1
+[2024-07-19 01:35:49] [User: sm] 1 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:49] [User: sm] 2 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:49] [User: sm] 3 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:49] [User: sm] 4 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:50] [User: sm] 5 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:50] [User: sm] 6 key(s) out of 6 have been restored to HSM 3001@127.0.0.1
+[2024-07-19 01:35:50] [User: sm] Listing keys from target HSM 3001@127.0.0.1
+
+idx algo  size type     group                    name                             spec
+--------------------------------------------------------------------------------------
+1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+
+[2024-07-19 01:35:50] [User: sm] Parsed cxitool output:
+[2024-07-19 01:35:50] [User: sm] Parsed cxitool output:
+[2024-07-19 01:35:50] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:35:50] [User: sm] 1   AES   256  sec      SLOT_0000                AES_DEMO_Key                     -1
+[2024-07-19 01:35:50] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:35:50] [User: sm] 2   DSA   2048 pub+prv  SLOT_0000                DSA_DEMO_KEY                     -1
+[2024-07-19 01:35:50] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:35:50] [User: sm] 3   ECDSA 256  pub+prv  SLOT_0000                ECC_DEMO_KEY                     -1
+[2024-07-19 01:35:50] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:35:50] [User: sm] 4   ECDH  256  pub+prv  SLOT_0000                ECDH_KEY1                        -1
+[2024-07-19 01:35:50] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:35:50] [User: sm] 5   ECDH  256  pub      SLOT_0000                ECDH_KEY2                        -1
+[2024-07-19 01:35:50] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+[2024-07-19 01:35:50] [User: sm] 6   RSA   2048 pub+prv  SLOT_0000                RSA_DEMO_KEY                     -1
+Index: 1, Algorithm: AES, Size: 256, Type: sec, Group: SLOT_0000, Name: AES_DEMO_Key, Spec: -1
+Index: 2, Algorithm: DSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: DSA_DEMO_KEY, Spec: -1
+Index: 3, Algorithm: ECDSA, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECC_DEMO_KEY, Spec: -1
+Index: 4, Algorithm: ECDH, Size: 256, Type: pub+prv, Group: SLOT_0000, Name: ECDH_KEY1, Spec: -1
+Index: 5, Algorithm: ECDH, Size: 256, Type: pub, Group: SLOT_0000, Name: ECDH_KEY2, Spec: -1
+Index: 6, Algorithm: RSA, Size: 2048, Type: pub+prv, Group: SLOT_0000, Name: RSA_DEMO_KEY, Spec: -1
+name=
+Group         : SLOT_0000
+Name          : RSA_DEMO_KEY
+Specifier     : -1
+Algo          : RSA
+Size          : 2048
+Export        : 0x00000000
+  Extractable : 0
+  Sensitive   : 1
+Usage         : 0x000002bb
+  Encrypt     : 1
+  Decrypt     : 1
+  Sign        : 1
+  Verify      : 1
+  Verify_Rec. : 1
+  Wrap        : 1
+  Unwrap      : 1
+  Derive      : 0
+BlockLen      : 256
+Type          : pub+prv
+DateGen       : 
+DateExp       : 
+Label         : 
+Modulus:
+0000  bd7b0276 4a534059  bfd7a900 44e974cc | { vJS@Y    D t |
+0010  93a10665 fe245144  d65cdae6 b12d3b96 |   e $QD \   -; |
+0020  3e0da4bf 24be6652  e4c48760 6f697708 |>   $ fR   `oiw |
+0030  9d1ca35c 34b76d37  5aac37d7 6e6d9826 |   \4 m7Z 7 nm &|
+0040  d371d74e e5c88a03  a0c55cd9 d5ceb141 | q N      \    A|
+0050  f8475f90 4a861a66  c9e9995b ad44b900 | G_ J  f   [ D  |
+0060  8414ecec ee75aa0a  ee856add 617f5316 |     u    j a S |
+0070  e1bfcdfc e4f3d3c5  08da22ab 238783b5 |          " #   |
+0080  e5ad6225 09751dfb  40d01867 8c9f234a |  b% u  @  g  #J|
+0090  bb7fc1e0 a9424dea  68b75a8b 67d05a2e |     BM h Z g Z.|
+00a0  4a6a556d c6abe5fa  ca00e61f 05bd6562 |JjUm          eb|
+00b0  d1ef55df 140ed1b5  0d9ef9bf 07b75e14 |  U           ^ |
+00c0  3354c274 2f0f9446  c46772ef d1cb9228 |3T t/  F gr    (|
+00d0  62a6c1d8 4edfb609  6012ba29 7f938cfb |b   N   `  )    |
+00e0  b8a1fca1 63180c08  1971c446 2db9948b |    c    q F-   |
+00f0  97798371 91fbf916  28fd0937 b15f09bb | y q    (  7 _  |
+Exponent:
+00  010001                               |                |
+[2024-07-19 01:35:51] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 01:35:51] [User: sm] Choose function:
+[2024-07-19 01:35:51] [User: sm] 1. Encrypt PIN
+[2024-07-19 01:35:51] [User: sm] 2. Backup HSM
+[2024-07-19 01:35:51] [User: sm] 3. Restore HSM
+[2024-07-19 01:35:51] [User: sm] 4. Automatic backup all keys from HSM 3001@127.0.0.1 to 3001@127.0.0.1 
+[2024-07-19 01:35:51] [User: sm] 5. Exit.
+[2024-07-19 10:31:53] [User: sm] Exit.
+[2024-07-19 10:31:54] [User: sm] Values loaded from config.properties:
+[2024-07-19 10:31:54] [User: sm] Source HSM IP: sourceip=3001@127.0.0.1
+[2024-07-19 10:31:54] [User: sm] Source SLOT: sourceslot=SLOT_0000
+[2024-07-19 10:31:54] [User: sm] Target HSM IP: targetip=3001@127.0.0.1
+[2024-07-19 10:31:54] [User: sm] Target SLOT: targetslot=SLOT_0000
+[2024-07-19 10:31:54] [User: sm] ----------------------------------------------------------------------------------------
+[2024-07-19 10:31:54] [User: sm] Choose function:
+[2024-07-19 10:31:54] [User: sm] 1. Encrypt PIN
+[2024-07-19 10:31:54] [User: sm] 2. Backup HSM
+[2024-07-19 10:31:54] [User: sm] 3. Restore HSM
+[2024-07-19 10:31:54] [User: sm] 4. Automatic backup all keys from HSM sourceip=3001@127.0.0.1 to targetip=3001@127.0.0.1 
+[2024-07-19 10:31:54] [User: sm] 5. Exit.
+[2024-07-19 10:32:46] [User: sm] Exit.
