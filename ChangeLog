@@ -1,5 +1,9 @@
 Changes
 
+1.0.6 Tue Jul 16 2024 08:11 UTC
+
+    * Add function: demo_key_generation(). Can generate demo RSA, DSA, ECDSA, AES keys.
+
 1.0.5 Tue Jul 16 2024 08:11 UTC
 
     * Enhance backup_restore() function, compare arrays before restoring keys
