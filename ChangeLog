@@ -1,5 +1,9 @@
 Changes
 
+1.0.8 Tue Jul 17 2024 10:10 UTC
+
+    * Enhance restore_hsm() function, compare arrays before restoring keys
+
 1.0.7 Tue Jul 16 2024 09:01 UTC
 
     * Add time out duration for no activity action
