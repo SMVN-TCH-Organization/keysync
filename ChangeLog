@@ -1,5 +1,9 @@
 Changes
 
+1.0.5 Tue Jul 16 2024 08:11 UTC
+
+    * Enhance backup_restore() function, compare arrays before restoring keys
+
 1.0.4 Tue Jul 16 2024 03:39 UTC
 
     * Enhance cxitool_and_parse() function, separate into parts with separate functions
