@@ -305,7 +305,7 @@ while true; do
     log "1. Encrypt PIN"
     log "2. Backup HSM"
     log "3. Restore HSM"
-    log "4. Automatic backup all keys from HSM $sourceip to $targetip "
+    log "4. Automatic backup all keys from HSM $sourceip to $targetip"
     log "5. Exit."
     log "6. Demo keys generation"
     read -p "Choose (1-6): " choice
