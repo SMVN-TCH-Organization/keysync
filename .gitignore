@@ -1,6 +1,4 @@
 *Zone.Identifier
-FLASHFILE
 *.kbk
 /simulator/devices
-*.kbk
 /logs
