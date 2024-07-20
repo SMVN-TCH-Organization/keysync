@@ -333,7 +333,8 @@ while true; do
                 restore_hsm
                 ;;
             4)
-            log "Selected option: 4. Automatic backup all keys from HSM $sourceip to $targetip"
+            log "----------------------------------------------------------------------------------------"
+	    log "Selected option: 4. Automatic backup all keys from HSM $sourceip to $targetip"
                 backup_restore
                 ;;
             5)
