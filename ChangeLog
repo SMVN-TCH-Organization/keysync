@@ -1,5 +1,9 @@
 Changes
 
+1.0.7 Tue Jul 16 2024 09:01 UTC
+
+    * Add time out duration for no activity action
+
 1.0.6 Tue Jul 16 2024 08:11 UTC
 
     * Add function: demo_key_generation(). Can generate demo RSA, DSA, ECDSA, AES keys.
